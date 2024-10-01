@@ -18,10 +18,12 @@ body {
     background-color: #ffffff;
     width: 80%;
     max-width: 1100px;
-    margin: 30px auto;
+    margin: 40px auto;
+    padding-bottom: 10px;
+}
 
-    /* debug */
-    border: 1px solid #ff00d9;
+.content {
+    margin-left: 50px;
 }
 
 /* HEADER */
@@ -48,34 +50,97 @@ body {
 .buttons,
 .blue-button,
 .white-button {
-    margin: 5px;
-    padding: 10px 15px;
-    font-weight: 700;
-    border-radius: 10px;
-    display: flex;
+    margin-top: 10px;
     margin-right: 5px;
+    padding: 5px 10px;
+    font-size: 12px;
+    border-radius: 8px;
+    display: flex;
 }
 
 .blue-button {
     margin-left: 30px;
     background-color: #47adf1;
-    border-color: #47adf1;
+    border: 2px solid #47adf1;
     color: #ffffff;
 }
 
 .white-button {
     background-color: #ffffff;
-    border-color: #d1d6da;
+    border: 2px solid #d1d6da;
     color: #d1d6da;
 }
 
 /* Divider */
 
 hr {
-    border: 2;
-    border-color: #f7f8f9; 
+    border: 1px solid #f7f8f9;
+    margin: 2px 0 25px 0;
 }
 
-/* Content */
+/* Lists */
 
-.main-list
+.main-list,
+.secondary-list {
+    font-size: 18px;
+    list-style: none;
+    color: #444851;
+}
+
+.secondary-list {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.decoration {
+    font-size: 12px;
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    text-align: center;
+    margin: 10px 0;
+}
+
+.check {
+    color: #65c0a9;
+    border: 1px solid #65c0a9;   
+}
+
+.cross {
+    color: #eb4e43;
+    border: 1px solid #eb4e43;   
+}
+
+.category {
+    color: #ffffff;
+    font-size: 12px;
+    display: inline-block;
+    border-radius: 10px;
+    text-align: center;
+    padding: 5px 8px;
+}
+
+.editorial {
+    background-color: #45abeb;
+}
+
+.goals {
+    background-color: #9c73e4;
+}
+
+.recruiting {
+    background-color: #65c0a9;
+}
+
+.mobile {
+    background-color: #f29e33;
+}
+
+.website {
+    background-color: #d863a1;
+}
+
+.sales {
+    background-color: #b1c927;
+}
