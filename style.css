@@ -1,7 +1,7 @@
 /* RESET */
 
 * {
-    padding: o;
+    padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
@@ -15,15 +15,16 @@ body {
 }
 
 .container {
+    background-color: #ffffff;
     width: 80%;
     max-width: 1100px;
-    margin: 0 auto;
+    margin: 30px auto;
 
     /* debug */
     border: 1px solid #ff00d9;
 }
 
-/* Header */
+/* HEADER */
 
 .header {
     background-color: #ffffff;
@@ -35,8 +36,44 @@ body {
     vertical-align: middle;
 }
 
-.header .logo-text {
+.logo-text {
     font-size: 30px;
     font-weight: 700;
     vertical-align: middle;
 }
+
+/* MAIN */
+/* Buttons */
+
+.buttons,
+.blue-button,
+.white-button {
+    margin: 5px;
+    padding: 10px 15px;
+    font-weight: 700;
+    border-radius: 10px;
+    display: flex;
+    margin-right: 5px;
+}
+
+.blue-button {
+    margin-left: 30px;
+    background-color: #47adf1;
+    border-color: #47adf1;
+    color: #ffffff;
+}
+
+.white-button {
+    background-color: #ffffff;
+    border-color: #d1d6da;
+    color: #d1d6da;
+}
+
+/* Divider */
+
+hr {
+    border: 2;
+    border-color: #f7f8f9; 
+}
+
+/* Content */
